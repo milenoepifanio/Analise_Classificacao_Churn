@@ -13,9 +13,13 @@ fonttools==4.58.0
 importlib-resources==6.5.2
     # via matplotlib
 joblib==1.5.0
-    # via scikit-learn
+    # via
+    #   -r requirements.in
+    #   scikit-learn
 kiwisolver==1.4.7
     # via matplotlib
+lightgbm==4.6.0
+    # via -r requirements.in
 matplotlib==3.9.4
     # via
     #   -r requirements.in
@@ -24,6 +28,7 @@ numpy==2.0.2
     # via
     #   -r requirements.in
     #   contourpy
+    #   lightgbm
     #   matplotlib
     #   pandas
     #   scikit-learn
@@ -50,6 +55,7 @@ scikit-learn==1.6.1
     # via -r requirements.in
 scipy==1.13.1
     # via
+    #   lightgbm
     #   scikit-learn
     #   xgboost
 seaborn==0.13.2

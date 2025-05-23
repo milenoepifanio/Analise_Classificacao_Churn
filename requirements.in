@@ -1,12 +1,8 @@
-# Manipulação e visualização de dados
 numpy
 pandas
 matplotlib
 seaborn
-
-# Pré-processamento e modelagem
+joblib
 scikit-learn
 xgboost
-
-# (Opcional) Interpretação de modelos com SHAP
-# shap
+lightgbm
