@@ -42,9 +42,9 @@ O dataset é obtido automaticamente via KaggleHub a partir do repositório:
 │   └── Models.ipynb           # Modelagem e avaliação
 │
 ├── .gitignore
+├── LICENSE.txt
 ├── README.md
-├── requirements.in            # Lista base de dependências
-└── requirements.txt           # Lista de dependências com versões fixas
+├── pyptoject
 ```
 
 ## ⚙️ Tecnologias e Bibliotecas
@@ -140,6 +140,11 @@ python scr/download_data.py
 - notebooks/Models.ipynb
 ```
 
-## 🚀 Resultados Esperados
+# Resultados Esperados
 
 Este projeto busca entender os fatores que influenciam a concessão de crédito e desenvolver modelos preditivos robustos que auxiliem na tomada de decisão automatizada e mais justa.
+
+## Licença
+
+Este projeto está licenciado sob a [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR).  
+Você pode usar, compartilhar e adaptar, **desde que cite a autoria (Mileno Epifanio)** e **não utilize para fins comerciais**.

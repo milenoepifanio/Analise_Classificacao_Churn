@@ -1,0 +1,26 @@
+[project]
+name = "clusterizacao_produtos_digitais"
+version = "0.1.0"
+description = "Segmentação de clientes com análise RFV e KMeans"
+authors = [
+    { name = "Mileno Epifanio" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "openpyxl",
+    "jupyter"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
