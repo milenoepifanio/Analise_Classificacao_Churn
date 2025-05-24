@@ -44,7 +44,7 @@ O dataset é obtido automaticamente via KaggleHub a partir do repositório:
 ├── .gitignore
 ├── LICENSE.txt
 ├── README.md
-├── pyptoject
+├── pyproject.toml
 ```
 
 ## ⚙️ Tecnologias e Bibliotecas
